@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./media/icon.png" type="image/x-icon">
+
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/818ed68b3b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <main class="main-container">
+
+        <section class="calculator">
+            <div class="calculator__view">
+                <h2 class="calculator__title"><span> <img src="./media/icon.png" alt="Calculator" class="calculator__logo" > Standard</span><span class="calculator_record-icon"><i class="fa-solid fa-rotate-left"></i></span> </h2>
+                <p class="calculator__previous"></p>
+                <p class="calculator__current">0</p>
+            </div>
+
+            <div class="calculator__buttons">
+                <button id="C" class="calculator__button-normal C">C</button>
+                <button id="CE" class="calculator__button-normal CE">CE</button>
+                <button id="delete" class="calculator__button-normal">&#60;</button>
+
+                <button id="reciprocal" class="calculator__button-normal">1/x</button>
+                <button id="square" class="calculator__button-normal">x&#710;2</button>
+                <button id="rootSquare" class="calculator__button-normal">&#8730x</button>
+                <button id="division" class="calculator__button-normal">&#247;</button>
+
+                <button id="7" class="calculator__button-normal">7</button>
+                <button id="8" class="calculator__button-normal">8</button>
+                <button id="9" class="calculator__button-normal">9</button>
+                <button id="times" class="calculator__button-normal">x</button>
+
+                <button id="4" class="calculator__button-normal">4</button>
+                <button id="5" class="calculator__button-normal">5</button>
+                <button id="6" class="calculator__button-normal">6</button>
+                <button id="minus" class="calculator__button-normal">-</button>
+
+                <button id="1" class="calculator__button-normal">1</button>
+                <button id="2" class="calculator__button-normal">2</button>
+                <button id="3" class="calculator__button-normal">3</button>
+                <button id="plus" class="calculator__button-normal">+</button>
+
+                <button id="negate" class="calculator__button-normal">+/-</button>
+                <button id="0" class="calculator__button-normal">0</button>
+                <button id="dot" class="calculator__button-normal">.</button>
+                <button id="equal" class="calculator__button-normal">=</button>
+
+            </div>
+        </section>
+
+        <section class="record">
+
+            <h3 class="record__title">History</h3>
+
+            <div class="record_container">
+
+            </div>
+
+            <div class="record__footer">
+                <span class="record__clear"><i class="fa-solid fa-trash"></i></span>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
